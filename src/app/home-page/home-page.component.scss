@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.ui-g{
+    background: black !important;
+    height: 3.7rem;
+    padding-top: 0.6rem;
+}
+
+
+.p-menubar{
+    height: 2rem !important;
+}
+
+.ui-menuitem-text{
+    color: white !important;
+}
+
+.ui-button{
+    text-align: center !important;
+}
+
+.pi-caret-down{
+    color:white !important;
+}
+
+.ui-menuitem-active>.ui-menuitem-link{
+    background: rgba(108,108,112,1) !important;
+}
+
+.ui-submenu-list{
+    background: black!important;
+}
+
+#login-btn{
+    color: white;
+    box-sizing: border-box;
+}
+
+
+.welcome{
+    line-height: 2rem;
+    font-size: 1rem;
+    color: white;
+}
+
+

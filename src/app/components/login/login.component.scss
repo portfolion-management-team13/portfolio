@@ -1,0 +1,37 @@
+#login-box{
+    border: solid 1px black;
+    height: 30rem;
+}
+
+.login-label{
+    width: 4rem;
+    margin-right: 10px;
+
+}
+
+.ui-inputgroup{
+    margin-top: 1rem;
+}
+
+.login-input{
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+}
+
+.ui-inputgroup-addon{
+    background:white !important;
+    color: black !important;
+}
+
+.register-btn,.login-btn{
+    display: inline-block;
+    margin-left:1rem !important;
+}
+
+.sign-in-btn{
+    display: block;
+    margin-top: 1rem;
+    width: 100%;
+    overflow: hidden;
+}

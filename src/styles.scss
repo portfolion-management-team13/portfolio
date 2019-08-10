@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+[class*="ui-g-"]{
+ padding: 0 !important;
+ border: none !important;
+ margin: none !important;
+ border-radius: 0 !important;
+ background: none !important;
+}
+
+.ui-g{
+    background: none !important;
+}
+
+
+
+.ui-menubar{
+    border: none !important;
+    background: none !important;
+}
+
+
+.float-clear{
+    clear: both;
+}
+
+.ui-corner-all{
+    border-radius: 0 !important;
+}

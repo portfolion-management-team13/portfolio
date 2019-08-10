@@ -1,0 +1,33 @@
+<div class="main-container">
+
+<div class="market-header">
+    <p-tabView>
+            <p-tabPanel header="Fund Managaers">
+
+
+                <div *ngFor="let ele of items;let i = index;">
+
+                    <div class="test-title">hello  <button (click)="changeDiv(i)">1111</button> </div>
+                    <div *ngIf="currentIndex==i">
+                        ggggggg
+                    </div>
+                </div>
+
+              
+
+             </p-tabPanel>
+
+                 
+
+
+
+
+
+                 <p-tabPanel header="Add">
+                     <h1> Here will append new manager</h1>
+                 </p-tabPanel>
+    </p-tabView>
+
+</div>
+
+</div>

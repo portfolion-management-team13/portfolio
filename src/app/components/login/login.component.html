@@ -1,0 +1,17 @@
+
+        <div class="ui-inputgroup login-input-group">
+
+                <span class="ui-inputgroup-addon"><i class="fa fa-user"></i></span>
+                <input pInputText type="text" [pKeyFilter]="noSpecial" [(ngModel)]="userName" class="login-input" placeholder="userName" >   
+            
+        </div>
+
+        <div class="ui-inputgroup login-input-group">
+                <span class="ui-inputgroup-addon"><i class="fa fa-circle" ></i></span>
+                <input type="password" pInputText [pKeyFilter]="noSpecial" [(ngModel)]="userPwd" class="login-input" placeholder="password" >    
+        </div>
+
+        <div class="login-input-group">
+            <button pButton label="Sign in" class="sign-in-btn" (click)="login()"></button>
+        </div>
+

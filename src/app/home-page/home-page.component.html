@@ -1,0 +1,38 @@
+
+<!--
+    head  start
+-->
+
+
+
+<div class="ui-g">
+        <div class="ui-g-1">
+            
+            <div style="display:inline-block;width:1rem"></div>
+            <img src="../../assets/images/citi-logo-no-r.png"/>
+            
+
+        </div>
+        <p-menubar [model]="items"  [autoDisplay]="true"  class="ui-g-10 font-white">
+
+                <button pButton label="Login" (click)="Login()"  *ngIf="!login" icon="fa fa-sign-in" iconPos="left"  ></button>
+
+                <div *ngIf="login" class="welcome"><span style="color: orange;">{{user.userName}}</span>
+                    <button pButton label="Exit" icon="fa fa-mail-forward" iconPos="left" style="left: 2rem;" (click)="Exit()"></button>
+                </div>
+        </p-menubar>
+</div>
+
+<!--
+    head end
+-->
+
+
+
+
+<!--
+    router
+-->
+<div style="margin-top: 2rem;"></div>
+<router-outlet></router-outlet>
+
